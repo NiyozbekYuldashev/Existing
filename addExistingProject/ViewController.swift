@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpImg()
+        self.view.backgroundColor = .red
     }
     func setUpImg() {
         
